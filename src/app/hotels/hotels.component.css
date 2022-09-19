@@ -1,0 +1,55 @@
+.grid-container {
+  margin: 20px;
+}
+
+.add-card {
+  /* position: absolute; */
+  /* top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px; */
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+}
+
+.table-card {
+  /* position: absolute; */
+  /* top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px; */
+  margin-top: 2%;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+
+.more-button {
+  /* position: absolute; */
+  /* top: 5px;
+  right: 10px; */
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.card-header-title{
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 2%;
+}
+
+.add-button{
+  background-color: rgb(253, 155, 28);
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
