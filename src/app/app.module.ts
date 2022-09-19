@@ -14,6 +14,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { ReservationComponent } from './reservation/reservation.component';
 
 
 
@@ -22,7 +23,8 @@ import { MatButtonModule } from '@angular/material/button';
     AppComponent,
     NavComponent,
     HotelsComponent,
-    ContractsComponent, 
+    ContractsComponent,
+    ReservationComponent, 
   ],
   imports: [
     BrowserModule,

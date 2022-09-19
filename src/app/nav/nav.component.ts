@@ -18,7 +18,7 @@ export class NavComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
-  appBarTitle = 'Reservations';
+  appBarTitle = 'Make Reservations';
 
   setAppBarTitle(_x?: any){
     this.appBarTitle = _x;

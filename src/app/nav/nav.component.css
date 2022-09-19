@@ -1,11 +1,13 @@
 .sidenav-container {
   height: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248,249,251);
+  color: rgb(95,109,132);
 }
 
 .sidenav {
-  width: 200px;
-  background-color: rgb(33, 112, 231);
+  width: 205px;
+  background-color: rgb(23,43,77);
+  color: rgb(95,109,132);
 }
 
 .sidenav .mat-toolbar {
@@ -13,11 +15,40 @@
 }
 
 .app-bar{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248,249,251);
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.active-list-item {
+  color: #ffffff !important; /* Note: You could also use a custom theme */
+}
+
+.contact-names{
+  color: rgb(95,109,132);
+}
+
+.button-text{
+  padding-left: 20px;
+}
+
+.app-bar-title{
+  color: rgb(23,43,77);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.app-name{
+  color: rgb(255,153,30);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.app-name-2{
+  color: rgb(30,132,228);
+  font-size: 24px;
 }
