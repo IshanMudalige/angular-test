@@ -8,10 +8,10 @@
   left: 15px;
   right: 15px;
   bottom: 15px; */
-  margin-top: 4%;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-bottom: 4%;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* margin-bottom: 4%; */
   box-shadow: 1,1,1,1;
 }
 
@@ -21,10 +21,10 @@
   left: 15px;
   right: 15px;
   bottom: 15px; */
-  margin-top: 2%;
+  /* margin-top: 2%; */
   margin-right: 4%;
   margin-left: 4%;
-  margin-bottom: 4%;
+  /* margin-bottom: 4%; */
 }
 
 .more-button {
@@ -45,6 +45,13 @@
 
 .add-button{
   background-color: rgb(253, 155, 28);
+  /* height: fit-content; */
+  margin-bottom: 15px;
+
+}
+
+.add-contract{
+  background-color: rgb(253, 155, 28);
 }
 
 mat-form-field {
@@ -56,5 +63,5 @@ mat-form-field-style {
 }
 
 table {
-  width: 100%;
+  width: 90%;
 }
