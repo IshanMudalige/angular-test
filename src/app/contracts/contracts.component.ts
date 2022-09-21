@@ -5,15 +5,16 @@ import { MatTableDataSource } from '@angular/material/table';
 import {MatPaginator} from '@angular/material/paginator';
 
 export interface PeriodicElement {
-  name: string;
   position: number;
-  weight: number;
-  symbol: string;
+  name: string;
+  price: number;
+  rooms: number;
+  adults: number;
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
-  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
-  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},]
+  {position: 1, name: 'Hydrogen', rooms: 2, price: 2500, adults: 5},
+  {position: 1, name: 'Hydrogen', rooms: 2, price: 2500, adults: 5},]
 
 @Component({
   selector: 'app-contracts',
@@ -31,11 +32,11 @@ export class ContractsComponent {
       }
 
       return [
-        { title: 'Card 1', type: 'column', rows: 1 },
+        { title: 'Card 1', type: 'row', rows: 1 },
       ];
     })
   );
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  displayedColumns: string[] = ['name', 'price', 'rooms','adults','action'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
 
   foods: Food[] = [

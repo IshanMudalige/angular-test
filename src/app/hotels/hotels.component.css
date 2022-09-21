@@ -1,35 +1,19 @@
-.grid-container {
-  margin: 20px;
-}
-
 .add-card {
-  /* position: absolute; */
-  /* top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px; */
-  margin-top: 4%;
-  margin-left: 4%;
+  margin-left: 5%;
   margin-right: 4%;
   margin-bottom: 4%;
 }
 
 .table-card {
-  /* position: absolute; */
-  /* top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px; */
-  margin-top: 2%;
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-bottom: 4%;
+ margin-right: 4%;
+ margin-left: 5%;
 }
 
 .more-button {
   /* position: absolute; */
   /* top: 5px;
   right: 10px; */
+  color: grey;
 }
 
 .dashboard-card-content {
@@ -52,4 +36,36 @@ mat-form-field {
 
 table {
   width: 100%;
+}
+
+.mat-column-address {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 45% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-name {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 35% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }

@@ -1,36 +1,7 @@
-.grid-container {
-  margin: 20px;
-}
-
-.add-card {
-  /* position: absolute; */
-  /* top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px; */
-  margin-top: 1.5%;
+.contract-card {
   margin-left: 2%;
   margin-right: 2%;
-  /* margin-bottom: 4%; */
-  box-shadow: 1,1,1,1;
-}
-
-.table-card {
-  /* position: absolute; */
-  /* top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px; */
-  /* margin-top: 2%; */
-  margin-right: 4%;
-  margin-left: 4%;
-  /* margin-bottom: 4%; */
-}
-
-.more-button {
-  /* position: absolute; */
-  /* top: 5px;
-  right: 10px; */
+  margin-bottom: 2%;
 }
 
 .dashboard-card-content {
@@ -40,28 +11,91 @@
 .card-header-title{
   font-size: 18px;
   font-weight: 500;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
 .add-button{
-  background-color: rgb(253, 155, 28);
-  /* height: fit-content; */
-  margin-bottom: 15px;
+  background-color: rgb(23,43,77);
+  margin-bottom: 1.8%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 
 }
 
 .add-contract{
-  background-color: rgb(253, 155, 28);
+  background-color: rgb(255,153,30);
+  margin-top: 2%;
 }
 
 mat-form-field {
   width: 100%;
-}
-
-mat-form-field-style {
-  width: 100%;
+  min-width: 150px;
 }
 
 table {
-  width: 90%;
+  width: 100%;
+}
+
+.mat-column-name {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 25% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-rooms {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 25% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-price {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 25% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.mat-column-adults {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 25% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
