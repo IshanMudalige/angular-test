@@ -27,4 +27,20 @@
     height: 50px;
     background-color: rgb(23,43,77);
   }
+
+  table{
+    width: 100%;
+  }
+
+  .price-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   
+  .btn-search{
+    margin-top: 20px;
+    background-color: rgb(255,153,30);
+    width: 100%;
+  }

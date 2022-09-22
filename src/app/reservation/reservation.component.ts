@@ -1,5 +1,6 @@
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
+import { MatTableDataSource } from '@angular/material/table';
 import { map } from 'rxjs';
 
 @Component({
@@ -23,5 +24,7 @@ export class ReservationComponent {
     })
   );
 
+  displayedColumns: string[] = ['rooms', 'adults', 'action'];
+  dataSource = new MatTableDataSource<string>(['1','2','3']);
   constructor(private breakpointObserver: BreakpointObserver) {}
 }
